@@ -1,0 +1,35 @@
+/* @media screen and (max-width: 1000px) {
+    .some-block{
+        background: red;
+        height: 60px;
+    }
+    .some-text{
+        font-size: 30px;
+        color: darkgreen;
+    }
+}
+@media screen and (max-width: 600px) {
+    .some-block{
+        background: green;
+        height: 60px;
+        width: 50%;
+    }
+    .some-text{
+        font-style: 25px;
+        color: darkslategray;
+        text-align: center;
+    }
+} */
+@media screen and (max-width: 1187px){
+    .card{
+        width: 48%;
+    }
+}
+@media screen and (max-width: 890px){
+    .card-wrap{
+        justify-content: center;
+    }
+    .card{
+        width: 90%;
+    }
+}
